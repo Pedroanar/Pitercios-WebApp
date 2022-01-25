@@ -6,12 +6,12 @@ import youtube from "./imagenes/RRSS/youtube.svg";
 import whatsapp from "./imagenes/RRSS/whatsapp.svg";
 import mail from "./imagenes/RRSS/mail.svg";
 import apuntes from "./imagenes/botones/apuntes.png";
-import resena from "./imagenes/botones/discord.png";
+import resena from "./imagenes/botones/resena.png";
 import discord from "./imagenes/botones/discord.png";
 import inscripcion from "./imagenes/botones/inscripcion.png";
 import whatsappb from "./imagenes/botones/whatsapp.png";
 import www from "./imagenes/botones/www.png";
-import { GiStarsStack } from "react-icons/gi";
+//import { GiStarsStack } from "react-icons/gi";
 
 export default function App() {
   const [route, setRoute] = useState("home");
@@ -23,6 +23,8 @@ export default function App() {
   //Pruebas setRoute
   const bot = () => setRoute("home");
   // const cont = () => setRoute("contador");
+
+  /* Lista de las los botones */
 
   const botones = [
     {
@@ -56,6 +58,28 @@ export default function App() {
       link: "https://goo.su/awsa"
     }
   ];
+
+  /* Lista de las redes sociales */
+
+  const rrss = [
+    {
+      href: "https://www.instagram.com/pitercios_ss/",
+      img: instagram
+    },
+    {
+      href: "https://www.youtube.com/channel/UCfY--oU6p_PpuF1Pao5rDsw",
+      img: youtube
+    },
+    {
+      href: "https://wa.me/34609761038",
+      img: whatsapp
+    },
+    {
+      href: "mailto:info@pitercios.es",
+      img: mail
+    }
+  ];
+
   return (
     <div className="page">
       <div className="container">
@@ -63,48 +87,25 @@ export default function App() {
         <p className="nombre">Pitercios</p>
         <p className="eslogan">El aula de aprender</p>
 
+        {/* Parte de las redes sociales */}
+
         <div>
-          <span>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="rrss-a"
-              href="https://www.instagram.com/pitercios_ss/"
-            >
-              <img className="imgrrss" src={instagram} alt="instagram" />
-            </a>
-          </span>
-          <span>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="rrss-a"
-              href="https://www.youtube.com/channel/UCfY--oU6p_PpuF1Pao5rDsw"
-            >
-              <img className="imgrrss" src={youtube} alt="yt" />
-            </a>
-          </span>
-          <span>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="rrss-a"
-              href="https://wa.me/34609761038"
-            >
-              <img className="imgrrss" src={whatsapp} alt="wa" />
-            </a>
-          </span>
-          <span>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="rrss-a"
-              href="mailto:info@pitercios.es"
-            >
-              <img className="imgrrss" src={mail} alt="mail" />
-            </a>
-          </span>
+          {rrss.map((rrss, i) => (
+            <span key={i}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="rrss-a"
+                href={rrss.href}
+              >
+                <img className="imgrrss" src={rrss.img} alt={`imagen-${i}`} />
+              </a>
+            </span>
+          ))}
         </div>
+
+        {/* Parte de los botones */}
+
         {route === "home" && (
           <div className="botonera">
             {botones.map((boton, i) => (
@@ -127,6 +128,9 @@ export default function App() {
             ))}
           </div>
         )}
+
+        {/* Parte de prueba suma-resta */}
+
         {route === "contador" && (
           <div>
             <p>Valor: {contador}</p>
