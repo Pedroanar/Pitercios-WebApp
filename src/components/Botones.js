@@ -1,6 +1,6 @@
 import "../index.css";
 import React from "react";
-import boton from "../utils/cardlist";
+import boton from "../utils/botoneslist";
 
 export default function Cards() {
   return (

@@ -7,7 +7,7 @@ const boton = [
   {
     texto: "Apuntes",
     img: "/imagenes/botones/apuntes.png",
-    onClick: () => setRoute("contador")
+    onClick: () => setRoute("apuntes")
   },
   {
     texto: "Discord",
