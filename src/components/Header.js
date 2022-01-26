@@ -1,7 +1,7 @@
 import "../index.css";
 import React from "react";
 
-export default function HEADER() {
+export default function Header() {
   return (
     <>
       <img

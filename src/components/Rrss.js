@@ -1,8 +1,8 @@
 import "../index.css";
 import React from "react";
-import rrss from "./rrsslist";
+import rrss from "../utils/rrsslist";
 
-export default function RRSS() {
+export default function Rrss() {
   return (
     <div>
       {rrss.map((rrss, i) => (
