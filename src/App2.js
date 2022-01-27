@@ -1,16 +1,5 @@
 import "./index.css";
 import React, { useState } from "react";
-import ImgIni from "./imagenes/PiT3Inicial.png";
-import instagram from "./imagenes/RRSS/instagram.svg";
-import youtube from "./imagenes/RRSS/youtube.svg";
-import whatsapp from "./imagenes/RRSS/whatsapp.svg";
-import mail from "./imagenes/RRSS/mail.svg";
-import apuntes from "./imagenes/botones/apuntes.png";
-import resena from "./imagenes/botones/resena.png";
-import discord from "./imagenes/botones/discord.png";
-import inscripcion from "./imagenes/botones/inscripcion.png";
-import whatsappb from "./imagenes/botones/whatsapp.png";
-import www from "./imagenes/botones/www.png";
 //import { GiStarsStack } from "react-icons/gi";
 
 export default function App() {
@@ -29,32 +18,32 @@ export default function App() {
   const botones = [
     {
       texto: "Pitercios.es",
-      img: www,
+      img: "/imagenes/botones/www.png",
       link: "http://pitercios.es/"
     },
     {
       texto: "Apuntes",
-      img: apuntes,
+      img: "/imagenes/botones/apuntes.png",
       onClick: () => setRoute("contador")
     },
     {
       texto: "Discord",
-      img: discord,
+      img: "/imagenes/botones/discord.png",
       link: "https://discord.gg/p29SxBSZGt"
     },
     {
       texto: "Whatsapp",
-      img: whatsappb,
+      img: "/imagenes/botones/whatsapp.png",
       link: "https://wa.me/34609761038"
     },
     {
       texto: "Inscripción",
-      img: inscripcion,
+      img: "/imagenes/botones/inscripcion.png",
       link: "http://pitercios.es/inscripcion/"
     },
     {
       texto: "Reseña",
-      img: resena,
+      img: "/imagenes/botones/resena.png",
       link: "https://goo.su/awsa"
     }
   ];
@@ -64,26 +53,30 @@ export default function App() {
   const rrss = [
     {
       href: "https://www.instagram.com/pitercios_ss/",
-      img: instagram
+      img: "/imagenes/RRSS/instagram.svg"
     },
     {
       href: "https://www.youtube.com/channel/UCfY--oU6p_PpuF1Pao5rDsw",
-      img: youtube
+      img: "/imagenes/RRSS/youtube.svg"
     },
     {
       href: "https://wa.me/34609761038",
-      img: whatsapp
+      img: "/imagenes/RRSS/youtube.svg"
     },
     {
       href: "mailto:info@pitercios.es",
-      img: mail
+      img: "/imagenes/RRSS/mail.svg"
     }
   ];
 
   return (
     <div className="page">
       <div className="container">
-        <img className="imgprin" src={ImgIni} alt="imgprin" />
+        <img
+          className="imgprin"
+          src="/imagenes/PiT3Inicial.png"
+          alt="imgprin"
+        />
         <p className="nombre">Pitercios</p>
         <p className="eslogan">El aula de aprender</p>
 

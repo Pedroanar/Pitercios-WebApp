@@ -2,7 +2,7 @@ import "../index.css";
 import React from "react";
 import boton from "../utils/botoneslist";
 
-export default function Cards() {
+export default function Botones() {
   return (
     <div className="botonera">
       {boton.map((boton, i) => (
