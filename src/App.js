@@ -7,14 +7,14 @@ import Apuntes from "./components/Apuntes";
 import "./index.css";
 
 export default function App() {
-  const [route] = useState("apuntes");
+  const [route, setRoute] = useState("home");
   return (
     <div className="page">
       <div className="container">
         <Header />
         <Rrss />
-        {route === "home" && <Botones />}
-        {route === "apuntes" && <Apuntes />}
+        {route === "home" && <Botones setRoute={setRoute} />}
+        {route === "apuntes" && <Apuntes setRoute={setRoute} />}
       </div>
     </div>
   );

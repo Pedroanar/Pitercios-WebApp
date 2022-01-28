@@ -1,24 +1,30 @@
 import "../index.css";
 import React from "react";
-import boton from "../utils/botoneslist";
+import botonlist from "../utils/botoneslist";
 
-export default function Botones() {
+const Botones = ({ setRoute }) => {
   return (
     <div className="botonera">
-      {boton.map((boton, i) => (
-        <div key={i} className="card" onClick={boton.onClick}>
+      {botonlist.map((botonlist, i) => (
+        <div
+          key={i}
+          className="card"
+          onClick={() => setRoute(`${botonlist.click}`)}
+        >
           <a
             target="_blank"
             rel="noreferrer"
             className="card-a"
-            href={boton.link}
+            href={botonlist.link}
           >
-            <img src={boton.img} className="card-img" alt={`imagen-${i}`} />
+            <img src={botonlist.img} className="card-img" alt={`imagen-${i}`} />
             {/* <GiStarsStack /> */}
-            <p className="card-text">{boton.texto}</p>
+            <p className="card-text">{botonlist.texto}</p>
           </a>
         </div>
       ))}
     </div>
   );
-}
+};
+
+export default Botones;

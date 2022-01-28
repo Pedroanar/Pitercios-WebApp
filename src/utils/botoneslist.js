@@ -1,34 +1,39 @@
-const boton = [
+const botonlist = [
   {
     texto: "Pitercios.es",
     img: "/imagenes/botones/www.png",
-    link: "http://pitercios.es/"
+    link: "http://pitercios.es/",
+    click: "home"
   },
   {
     texto: "Apuntes",
     img: "/imagenes/botones/apuntes.png",
-    onClick: () => setRoute("apuntes")
+    click: "apuntes"
   },
   {
     texto: "Discord",
     img: "/imagenes/botones/discord.png",
-    link: "https://discord.gg/p29SxBSZGt"
+    link: "https://discord.gg/p29SxBSZGt",
+    click: "home"
   },
   {
     texto: "Whatsapp",
     img: "/imagenes/botones/whatsapp.png",
-    link: "https://wa.me/34609761038"
+    link: "https://wa.me/34609761038",
+    click: "home"
   },
   {
     texto: "Inscripción",
     img: "/imagenes/botones/inscripcion.png",
-    link: "http://pitercios.es/inscripcion/"
+    link: "http://pitercios.es/inscripcion/",
+    click: "home"
   },
   {
     texto: "Reseña",
     img: "/imagenes/botones/resena.png",
-    link: "https://goo.su/awsa"
+    link: "https://goo.su/awsa",
+    click: "home"
   }
 ];
 
-export default boton;
+export default botonlist;

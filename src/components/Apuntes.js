@@ -1,7 +1,7 @@
 import React from "react";
 import SECTIONS from "../utils/apunteslist";
 import Scroll from "./Scroll.js";
-import "../apuntes.css";
+//import "../apuntes.css";
 
 export default function Apuntes() {
   return (
