@@ -1,11 +1,11 @@
 import React from "react";
 import SECTIONS from "../utils/apunteslist";
 import Scroll from "./Scroll.js";
-//import "../apuntes.css";
+import "../index.css";
 
 export default function Apuntes() {
   return (
-    <div className="App">
+    <div className="apuntes">
       <div>
         <Scroll secciones={SECTIONS} />
       </div>

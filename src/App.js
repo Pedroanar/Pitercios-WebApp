@@ -9,13 +9,15 @@ import "./index.css";
 export default function App() {
   const [route, setRoute] = useState("home");
   return (
-    <div className="page">
-      <div className="container">
-        <Header />
-        <Rrss />
-        {route === "home" && <Botones setRoute={setRoute} />}
-        {route === "apuntes" && <Apuntes setRoute={setRoute} />}
+    <>
+      <div className="page">
+        <div className="container">
+          <Header />
+          <Rrss />
+          {route === "home" && <Botones setRoute={setRoute} />}
+          {route === "apuntes" && <Apuntes setRoute={setRoute} />}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

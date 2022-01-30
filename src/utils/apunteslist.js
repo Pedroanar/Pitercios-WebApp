@@ -7,14 +7,14 @@ export default [
         key: "1",
         text: "MATEMÁTICAS II",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-",
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
         link: "http://pitercios.es"
       },
       {
         key: "2",
         text: "MATEMÁTICAS CCSS",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-",
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
         link: "http:/google.es"
       },
 
@@ -22,14 +22,14 @@ export default [
         key: "3",
         text: "FÍSICA",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-",
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
         link: "http://pitercios.es"
       },
       {
         key: "4",
         text: "QUÍMIMCA",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-",
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
         link: "http://pitercios.es"
       }
     ]
@@ -48,20 +48,20 @@ export default [
         key: "2",
         text: "MATEMÁTICAS CCSS",
         uri:
-          "https://i.pinimg.com/736x/c1/7a/56/c17a56c763201e05ffa8aa2d90e4ce02.jpg"
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
       },
 
       {
         key: "3",
         text: "FÍSICA",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-"
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
       },
       {
         key: "4",
         text: "QUÍMICA",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-"
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
       }
     ]
   },
@@ -91,7 +91,7 @@ export default [
         key: "4",
         text: "QUÍMICA",
         uri:
-          "https://lh3.googleusercontent.com/proxy/hP7cCXsTYehXQBMYHnb4mart-fWma952BRMPj6ox2-wSOnw4uV5qu6sXz5aZ2LLDgYdRrJrMF7GzBqKqvMoq1RjXFGIKXSRHfB-6yEOEcbBo9ErFReG6wh8ghYAN4w4DeEm2QnSSHKZ7lCCRANBS2r50xRw-"
+          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
       }
     ]
   }
