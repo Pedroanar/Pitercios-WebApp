@@ -12,7 +12,8 @@ export default StyleSheet.create({
     fontSize: 15,
     color: "#ffffffbd",
     marginTop: 20,
-    marginBottom: 5
+    marginBottom: 5,
+    marginLeft: 10
   },
   item: {
     margin: 7,

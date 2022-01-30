@@ -8,7 +8,7 @@ export default (props) => {
     <View style={styles.container}>
       <SafeAreaView style={{ flex: 1 }}>
         <SectionList
-          contentContainerStyle={{ paddingHorizontal: 10 }}
+          contentContainerStyle={{ paddingHorizontal: 0 }}
           stickySectionHeadersEnabled={false}
           sections={props.secciones}
           renderSectionHeader={({ section }) => (
