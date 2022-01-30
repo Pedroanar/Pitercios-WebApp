@@ -13,8 +13,9 @@ const botonlist = [
   {
     texto: "Discord",
     img: "/imagenes/botones/discord.png",
-    link: "https://discord.gg/p29SxBSZGt",
-    click: "home"
+    //link: "https://discord.gg/p29SxBSZGt",
+    click: "home",
+    id: "btnModal"
   },
   {
     texto: "Whatsapp",

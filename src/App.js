@@ -12,8 +12,9 @@ export default function App() {
     <>
       <div className="page">
         <div className="container">
-          <Header />
+          <Header setRoute={setRoute} />
           <Rrss />
+
           {route === "home" && <Botones setRoute={setRoute} />}
           {route === "apuntes" && <Apuntes setRoute={setRoute} />}
         </div>
