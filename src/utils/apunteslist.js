@@ -6,31 +6,29 @@ export default [
       {
         key: "1",
         text: "MATEMÁTICAS II",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
-        link: "http://pitercios.es"
+        uri: "/imagenes/apuntes/MatemáticasII.jpg",
+        link:
+          "https://drive.google.com/drive/folders/1SnSS9fdbjWT-yuxyTW1UVq3a12I_MFBa?usp=sharing"
       },
       {
         key: "2",
         text: "MATEMÁTICAS CCSS",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
-        link: "http:/google.es"
+        uri: "/imagenes/apuntes/MatemáticasCCSSII.jpg",
+        link:
+          "https://drive.google.com/drive/folders/1rIBe5nkYxQjhVozWazqCUErjC-hCmd-u?usp=sharing"
       },
 
       {
         key: "3",
         text: "FÍSICA",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
-        link: "http://pitercios.es"
+        uri: "/imagenes/apuntes/FísicaII.jpg",
+        link: "http://pitercios.es/coomingsoon/"
       },
       {
         key: "4",
         text: "QUÍMIMCA",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg",
-        link: "http://pitercios.es"
+        uri: "/imagenes/apuntes/QuímicaII.jpg",
+        link: "http://pitercios.es/coomingsoon/"
       }
     ]
   },
@@ -41,27 +39,31 @@ export default [
       {
         key: "1",
         text: "MATEMÁTICAS I",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
+        uri: "/imagenes/apuntes/MatemáticasI.jpg",
+        link:
+          "https://drive.google.com/drive/folders/1jSkYFk4dirRK-lBmQYVF9Ey5quPXB-VT?usp=sharing"
       },
       {
         key: "2",
         text: "MATEMÁTICAS CCSS",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
+        uri: "/imagenes/apuntes/MatemáticasCCSSI.jpg",
+        link:
+          "https://drive.google.com/drive/folders/16IrR5NM4b6ZsZ9EG-GQVK6xYsm9_U1YD?usp=sharing"
       },
 
       {
         key: "3",
         text: "FÍSICA",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
+        uri: "/imagenes/apuntes/FísicaI.jpg",
+        link:
+          "https://drive.google.com/drive/folders/1GEQ_4q5_8S4xbyqpsZSaGOLMP8L8Dpua?usp=sharing"
       },
       {
         key: "4",
         text: "QUÍMICA",
-        uri:
-          "https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_52683-9162.jpg?size=338&ext=jpg"
+        uri: "/imagenes/apuntes/QuímicaI.jpg",
+        link:
+          "https://drive.google.com/drive/folders/1GEQ_4q5_8S4xbyqpsZSaGOLMP8L8Dpua?usp=sharing"
       }
     ]
   },
