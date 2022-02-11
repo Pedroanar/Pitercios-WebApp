@@ -1,7 +1,7 @@
 const botonlist = [
   {
     texto: "Pitercios.es",
-    img: "/imagenes/botones/www.png",
+    img: "/imagenes/botones/www.jpg",
     link: "http://pitercios.es/",
     click: "home"
   },
