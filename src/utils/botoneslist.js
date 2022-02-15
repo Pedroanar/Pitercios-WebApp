@@ -13,7 +13,7 @@ const botonlist = [
   {
     texto: "Discord",
     img: "/imagenes/botones/discord.png",
-    //link: "https://discord.gg/p29SxBSZGt",
+    link: "https://discord.gg/p29SxBSZGt",
     click: "home",
     id: "btnModal"
   },
@@ -32,7 +32,7 @@ const botonlist = [
   {
     texto: "Reseña",
     img: "/imagenes/botones/resena.png",
-    link: "https://goo.su/awsa",
+    link: "https://bit.ly/34A18G9",
     click: "home"
   }
 ];
